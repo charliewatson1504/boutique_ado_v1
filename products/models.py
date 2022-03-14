@@ -1,12 +1,20 @@
-from tabnanny import verbose
 from django.db import models
 
 # Create your models here.
 
 
 class Category(models.Model):
+    """_summary_
 
+    Args:
+        models (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     class Meta:
+        """_summary_
+        """
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=254)
