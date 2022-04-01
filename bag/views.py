@@ -1,6 +1,4 @@
-import imp
-from django.http import HttpResponse
-from django.shortcuts import get_object_or_404, render, redirect
+from django.shortcuts import get_object_or_404, render, redirect, HttpResponse
 from django.urls import reverse
 from django.contrib import messages
 
