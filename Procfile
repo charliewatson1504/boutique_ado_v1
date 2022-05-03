@@ -1,0 +1,1 @@
+web: guicorn boutique_ado.wsgi:application
